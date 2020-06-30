@@ -1,0 +1,29 @@
+{
+  "name": "ramdajs-recipes",
+  "version": "1.0.0",
+  "description": "Ramda JS Most frequently used and usable curry functions",
+  "main": "index.js",
+  "repository": "https://github.com/technoknol/ramdajs-recipes.git",
+  "author": "Technoknol",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "cross-env BABEL_ENV=cjs mocha --require @babel/register   --reporter spec"
+  },
+  "dependencies": {
+    "ramda": "^0.27.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/register": "^7.10.4",
+    "@babel/types": "^7.10.4",
+    "babel-preset-latest": "^6.24.1",
+    "cross-env": "^7.0.2",
+    "mocha": "^8.0.1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"]
+  }
+}
